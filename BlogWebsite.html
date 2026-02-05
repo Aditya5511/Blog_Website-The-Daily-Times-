@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="WebsiteStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IN:wght@100..400&display=swap" rel="stylesheet">
+
+</head>
+<body class="body_container">
+    
+    <div class="container">
+
+        <div class="headerContainer">
+
+          <div id="heading">
+            <h1>-- The Daily Byte --</h1>
+          </div>  
+
+          <div id="description">
+            <p>Utilize this space to incorporate a captivating subheading crafted by ChatGpt, adding<br> depth and intrigue to your blog.</p>
+          </div>
+
+        </div>
+        
+        <div class="contentbox">
+
+            <div class="card card1">
+
+                <div class="imagecontainer">
+                <a href="#">
+                    <img src="https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX14848143.jpg"
+                        alt="card 1 image"
+                        loading="lazy">
+                </a>
+
+                </div>
+                
+                <div class="cardinfo">
+                    <a href="#"><h3>Healthy Eating Tips</h3></a>
+                    <p>Simple habits that improve fitness, energy, and daily well-being.</p>
+                </div>
+
+                <div class="cardfooter">
+                    <div class="author">
+                            <div class="authimg">
+                                 <img 
+                                src="https://api.dicebear.com/7.x/notionists/svg?seed=John?size=64"
+                                loading="lazy" 
+                                class="aithor_avatar"
+                                alt="avatar 1"
+                            />
+                            
+                            <!-- loading ahs two attributes eager and lazy -- by default its eager-->
+                            </div>
+                            <ul>
+                                <li id="authorname">John doe</li>
+                                <li id="postdate">July 23,2021</li>
+                            </ul>
+                    </div>
+                    <div class="type">
+                        <p>Healthy</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="card card2">
+
+                <div class="imagecontainer">
+                <a href="#">
+                    <img src="https://th.bing.com/th/id/OIP.UsZog-cKU-GZfSIbwGvGxgHaE8?w=283&h=189&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                        alt="card 1 image"
+                        loading="lazy">
+                </a>
+
+                </div>
+                
+                <div class="cardinfo">
+                    <a href="#"><h3>New Released Gadgets</h3></a>
+                    <p>Latest gadgets that simplify tasks and enhance everyday productivity.</p>
+                </div>
+
+                <div class="cardfooter">
+                    <div class="author">
+                            <div class="authimg">
+                                 <img 
+                                src="https://api.dicebear.com/7.x/notionists/svg?seed=Severus?size=64"
+                                loading="lazy" 
+                                class="aithor_avatar"
+                                alt="avatar 1"
+                            />
+                            
+                            <!-- loading ahs two attributes eager and lazy -- by default its eager-->
+                            </div>
+                            <ul>
+                                <li id="authorname">Severus Smith</li>
+                                <li id="postdate">July 14,2024</li>
+                            </ul>
+                    </div>
+                    <div class="type">
+                        <p>Gadgets</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="card card3">
+
+                <div class="imagecontainer">
+                <a href="#">
+                    <img src="data:image/webp;base64,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"
+                        alt="card 1 image"
+                        loading="lazy">
+                </a>
+
+                </div>
+                
+                <div class="cardinfo">
+                    <a href="#"><h3>New Nutrition</h3></a>
+                    <p>Balanced nutrition habits that boost energy and support overall health.</p>
+                </div>
+
+                <div class="cardfooter">
+                    <div class="author">
+                            <div class="authimg">
+                                 <img 
+                                src="https://api.dicebear.com/7.x/notionists/svg?seed=Chitraksh?size=64"
+                                loading="lazy" 
+                                class="aithor_avatar"
+                                alt="avatar 1"
+                            />
+                            
+                            <!-- loading ahs two attributes eager and lazy -- by default its eager-->
+                            </div>
+                            <ul>
+                                <li id="authorname">Chitraksh Verma</li>
+                                <li id="postdate">Oct 13,2023</li>
+                            </ul>
+                    </div>
+                    <div class="type">
+                        <p>Nutrition</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="card card4">
+
+                <div class="imagecontainer">
+                <a href="#">
+                    <img src="https://th.bing.com/th/id/OIP.MWGrdjm_fU9CLC5wJsH3UgHaGr?w=175&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+                        alt="card 1 image"
+                        loading="lazy">
+                </a>
+
+                </div>
+                
+                <div class="cardinfo">
+                    <a href="#"><h3>Time Managemnet</h3></a>
+                    <p>Effective time management skills that improve focus and daily productivity.</p>
+                </div>
+
+                <div class="cardfooter">
+                    <div class="author">
+                            <div class="authimg">
+                                 <img 
+                                src="https://api.dicebear.com/7.x/notionists/svg?seed=Carry?size=64"
+                                loading="lazy" 
+                                class="aithor_avatar"
+                                alt="avatar 1"
+                            />
+                            
+                            <!-- loading ahs two attributes eager and lazy -- by default its eager-->
+                            </div>
+                            <ul>
+                                <li id="authorname">Carry Hudson</li>
+                                <li id="postdate">May 12,2022</li>
+                            </ul>
+                    </div>
+                    <div class="type">
+                        <p>Productivity</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="card card5">
+
+                <div class="imagecontainer">
+                <a href="#">
+                    <img src="https://www.bing.com/th/id/OIP.ov8nQ4yCJ7niIgK5pethLQHaFY?w=276&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                        alt="card 1 image"
+                        loading="lazy">
+                </a>
+
+                </div>
+                
+                <div class="cardinfo">
+                    <a href="#"><h3>Art of MindFulness</h3></a>
+                    <p>Calming practices that reduce stress and improve mental clarity.</p>
+                </div>
+
+                <div class="cardfooter">
+                    <div class="author">
+                            <div class="authimg">
+                                 <img 
+                                src="https://api.dicebear.com/7.x/notionists/svg?seed=Adithi?size=64"
+                                loading="lazy" 
+                                class="aithor_avatar"
+                                alt="avatar 1"
+                            />
+                            
+                            <!-- loading ahs two attributes eager and lazy -- by default its eager-->
+                            </div>
+                            <ul>
+                                <li id="authorname">Adithi</li>
+                                <li id="postdate">Sep 22,2021</li>
+                            </ul>
+                    </div>
+                    <div class="type">
+                        <p>MindFulness</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="card card6">
+
+                <div class="imagecontainer">
+                <a href="#">
+                    <img src="https://www.bing.com/th/id/OIP.lYHtuINEYEM877AeNNvNMQHaHa?w=206&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                        alt="card 1 image"
+                        loading="lazy">
+                </a>
+
+                </div>
+                
+                <div class="cardinfo">
+                    <a href="#"><h3>DIY Home Decor</h3></a>
+                    <p>Creative decor concepts that enhance style and elevate modern interiors.</p>
+                </div>
+
+                <div class="cardfooter">
+                    <div class="author">
+                            <div class="authimg">
+                                 <img 
+                                src="https://api.dicebear.com/7.x/notionists/svg?seed=Emma?size=64"
+                                loading="lazy" 
+                                class="aithor_avatar"
+                                alt="avatar 1"
+                            />
+                            
+                            <!-- loading ahs two attributes eager and lazy -- by default its eager-->
+                            </div>
+                            <ul>
+                                <li id="authorname">Emma Tom</li>
+                                <li id="postdate">Aug 15,2020</li>
+                            </ul>
+                    </div>
+                    <div class="type">
+                        <p>Home Decor</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="card card7">
+
+                <div class="imagecontainer">
+                <a href="#">
+                    <img src="https://www.bing.com/th/id/OIP.JAyR-piYO8GBmKGpu1zhYAHaFp?w=236&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2"
+                        alt="card 1 image"
+                        loading="lazy">
+                </a>
+
+                </div>
+                
+                <div class="cardinfo">
+                    <a href="#"><h3>Travel Bucket List</h3></a>
+                    <p>Inspiring journeys, tips, and experiences from around the world.</p>
+                </div>
+
+                <div class="cardfooter">
+                    <div class="author">
+                            <div class="authimg">
+                                 <img 
+                                src="https://api.dicebear.com/7.x/notionists/svg?seed=Albus?size=64"
+                                loading="lazy" 
+                                class="aithor_avatar"
+                                alt="avatar 1"
+                            />
+                            
+                            <!-- loading ahs two attributes eager and lazy -- by default its eager-->
+                            </div>
+                            <ul>
+                                <li id="authorname">Albus Smith</li>
+                                <li id="postdate">Dec 1,2019</li>
+                            </ul>
+                    </div>
+                    <div class="type">
+                        <p>Travel</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+            <div class="card card8">
+
+                <div class="imagecontainer">
+                <a href="#">
+                    <img src="https://static.vecteezy.com/system/resources/previews/008/749/784/non_2x/negative-and-positive-wording-on-cliffs-with-sunrise-positive-thinking-concept-photo.jpg"
+                        alt="card 1 image"
+                        loading="lazy">
+                </a>
+
+                </div>
+                
+                <div class="cardinfo">
+                    <a href="#"><h3>Power of Positivity</h3></a>
+                    <p>Positive thinking habits that strengthen mindset and inspire daily growth.</p>
+                </div>
+
+                <div class="cardfooter">
+                    <div class="author">
+                            <div class="authimg">
+                                 <img 
+                                src="https://api.dicebear.com/7.x/notionists/svg?seed=Rupert?size=64"
+                                loading="lazy" 
+                                class="aithor_avatar"
+                                alt="avatar 1"
+                            />
+                            
+                            <!-- loading ahs two attributes eager and lazy -- by default its eager-->
+                            </div>
+                            <ul>
+                                <li id="authorname">Rupert Potter</li>
+                                <li id="postdate">March 19,2020</li>
+                            </ul>
+                    </div>
+                    <div class="type">
+                        <p>Positivity</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+           
+
+            
+
+            
+
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+</body>
+</html>
